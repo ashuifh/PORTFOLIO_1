@@ -41,6 +41,8 @@ function App() {
               <li>HTML5 & CSS3</li>
               <li>Tailwind CSS</li>
               <li>Responsive Design</li>
+               <li>C</li>
+               <li>C++</li>
             </ul>
           </div>
 
@@ -65,8 +67,6 @@ function App() {
             </div>
             <ul className="space-y-2 text-gray-300">
               <li>Git & GitHub</li>
-              <li>Docker</li>
-              <li>AWS</li>
               <li>VScode</li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      
+      <section className="container px-6 py-16 mx-auto border-t border-gray-700">
         <h2 className="mb-12 text-3xl font-bold text-center">My Projects</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {/* Project Card 1 */}
@@ -97,20 +97,11 @@ function App() {
                   <Github size={16} />
                   <span>Code</span>
                 </a>
-                <a 
-                  href="https://project1.demo.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-blue-400 transition-colors hover:text-blue-300"
-                >
-                </a>
               </div>
             </div>
           </div>
 
-       
-
-          {/* Project Card 3 */}
+          {/* Project Card 2 */}
           <div className="overflow-hidden transition-shadow bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" 
@@ -130,23 +121,15 @@ function App() {
                   <Github size={16} />
                   <span>Code</span>
                 </a>
-                <a 
-                  href="https://github.com/ashuifh/LIVE_CHAT01" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-blue-400 transition-colors hover:text-blue-300"
-                >
-                </a>
               </div>
             </div>
           </div>
 
-
-          
+          {/* Project Card 3 */}
           <div className="overflow-hidden transition-shadow bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
-              alt="Project 1" 
+              alt="Financial Tracker" 
               className="object-cover w-full h-48"
             />
             <div className="p-6">
@@ -162,25 +145,15 @@ function App() {
                   <Github size={16} />
                   <span>Code</span>
                 </a>
-                <a 
-                  href="https://project1.demo.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-blue-400 transition-colors hover:text-blue-300"
-                >
-                </a>
               </div>
             </div>
           </div>
 
-
-
-
-          
+          {/* Project Card 4 */}
           <div className="overflow-hidden transition-shadow bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
-              alt="Project 1" 
+              alt="Blog App" 
               className="object-cover w-full h-48"
             />
             <div className="p-6">
@@ -196,19 +169,59 @@ function App() {
                   <Github size={16} />
                   <span>Code</span>
                 </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project Card 5 - Nutrie Snap */}
+          <div className="overflow-hidden transition-shadow bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
+            <img 
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" 
+              alt="Nutrie Snap" 
+              className="object-cover w-full h-48"
+            />
+            <div className="p-6">
+              <h3 className="mb-2 text-xl font-semibold">Nutrie Snap</h3>
+              <p className="mb-4 text-gray-400">Nutrition analysis app that provides food information from images</p>
+              <div className="flex gap-4">
                 <a 
-                  href="https://github.com/ashuifh/Blogcheck" 
+                  href="https://github.com/ashuifh/nutrie-snap" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-blue-400 transition-colors hover:text-blue-300"
                 >
+                  <Github size={16} />
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project Card 6 - Class Buddy */}
+          <div className="overflow-hidden transition-shadow bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
+            <img 
+              src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80" 
+              alt="Class Buddy" 
+              className="object-cover w-full h-48"
+            />
+            <div className="p-6">
+              <h3 className="mb-2 text-xl font-semibold">Class Buddy</h3>
+              <p className="mb-4 text-gray-400">Group project, lead as a backend developer a project manager </p>
+              <div className="flex gap-4">
+                <a 
+                  href="https://github.com/ashuifh/class-buddy" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-blue-400 transition-colors hover:text-blue-300"
+                >
+                  <Github size={16} />
+                  <span>Code</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        
-     
+      </section>
     </div>
   );
 }
